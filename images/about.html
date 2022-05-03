@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> Universiteti "ISA BOLETINI" Mitrovice </title>
+        <link rel="stylesheet" href="style.css">
+      <!-- i marrur  ne font googles-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+<section class="sub-header">    
+    <nav>
+        <a href="index.html">
+            <img src="images/logo2021.png"></a>    
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle-o" onclick="hideMenu()">                  
+                </i>
+                <ul>                   
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="kursi.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                   
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>      
+    </nav>
+   <h1>Rreth Nesh</h1>
+</section>
+<!--   rreth neve-->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Universiteti me i Kompletuar
+
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, reiciendis molestias omnis ipsam velit voluptas laborum quisquam iste obcaecati rerum, temporibus quod earum consequuntur, quia minima nisi voluptatum saepe similique!</p>
+        <a href="" class="hero-btn red-btn">Eksploroni Tani</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>        
+    </div>
+
+</section>
+
+<section class="footer">
+    <h4>Rreth nesh</h4>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+
+</section>
+
+<!-- java script, ama dikun kom gabu-->
+
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+
+</script>
+ </body>
+
+</html>

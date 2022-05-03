@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> Universiteti "ISA BOLETINI" Mitrovice </title>
+        <link rel="stylesheet" href="style.css">
+      <!-- i marrur  ne font googles-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+<section class="sub-header">    
+    <nav>
+        <a href="index.html">
+            <img src="images/logo2021.png"></a>    
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle-o" onclick="hideMenu()">                  
+                </i>
+                <ul>                   
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="kursi.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                   
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>      
+    </nav>
+   <h1>Na Kontaktoni</h1>
+</section>
+<!-- kontaktoni-->
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d187422.88699533016!2d20.871784264900036!3d42.77814634328997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135345089c22ba8f%3A0xfcbdd4727a0a776c!2sUniversity%20%22Isa%20Boletini%22-%20Mitrovica!5e0!3m2!1sen!2s!4v1651602688324!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <span>
+                    <h5>
+                        Str. Ukshin Kovacica, 40000, Mitrovica, Kosovo
+                    </h5>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+
+
+            <form action=" ">
+                <input type="text" placeholder="Shkruani Emrin tuaj"required>
+                <input type="email" placeholder="Shkruani Emailin tuaj"required>
+                <input type="text" placeholder="Shkruani lenden tuaj"required>
+                <textarea  rows="8" placeholder="message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Dërgoni Mesazh</button>
+            </form>
+
+        </div>
+    </div>
+
+</section>
+
+
+<section class="footer">
+    <h4>Rreth nesh</h4>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+
+</section>
+
+<!-- java script, ama dikun kom gabu-->
+
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+
+</script>
+ </body>
+
+</html>
